@@ -1,10 +1,10 @@
-namespace blokkproba {
-    //  %blockId = blokkprobaxor
+namespace blokkprobapython {
+    //  %blockId = blokkpython
     //  %block="kizarovagy $a $b"
-    //  % color=5 weight=100 icon="\uf1ec"
+    //  % color=105 
     //  % groups=['Led']
-    //  % a.min=0 a.max=255 a.defl=0
-    public static kizarovagy(a: number, b: number): number {
+    //  % a.min=0 a.max=100 a.defl=0
+    public static xor(a: number, b: number): number {
         return a ^ b
     }
     

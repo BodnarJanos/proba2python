@@ -1,9 +1,9 @@
 @namespace
-class blokkproba:
-    # %blockId = blokkprobaxor
+class blokkprobapython:
+    # %blockId = blokkpython
     # %block="kizarovagy $a $b"
-    # % color=5 weight=100 icon="\uf1ec"
+    # % color=105 
     # % groups=['Led']
-    # % a.min=0 a.max=255 a.defl=0
-    def kizarovagy(a: number, b: number):
+    # % a.min=0 a.max=100 a.defl=0
+    def xor(a: number, b: number):
         return a ^ b
